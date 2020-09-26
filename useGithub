@@ -1,0 +1,17 @@
+gh-pages 만들기
+
+1. npm i gh-pages
+
+2-1 package.json 파일에 "homepage": "https://JunIl-git.github.io/{project name}" 작성
+2-2 package.json 파일의 "scripts" obj에 "deploy": "gh-pages -d build" 작성
+
+3 terminal에 npm run deploy 입력
+
+
+커밋하기
+
+1. git add *
+
+2. git commit -m "text"
+
+3. git push
