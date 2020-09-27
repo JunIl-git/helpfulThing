@@ -1,13 +1,39 @@
-gh-pages 만들기
+create-react-app (초기 개발환경)
 
-1. npm i gh-pages
+1. Node js Download (npm install)
+
+2-A. window의 경우 window + R (cmd)
+     npm -v (버전이 나온다면 성공적)
+
+2-B. mac의 경우 spotlight에서 terminal 입력
+    npm -v  (버전이 나온다면 성공적)
+
+3-A.프로그램을 만들 경로를 입력하고 
+    1. npm install -g create-react-app
+    2. create-react-app react-todo   
+
+3-B npx create-react-app ????
+
+                 npm vs npx (npx 권장)
+                 
+npm은 프로그램을 설치하는 프로그램(지속), 무거움
+npx는 create-react-app을 딱 한번만 생성(일회성)
+=컴퓨터의 공간을 낭비하지 않는다, 항상 최신버전의 create-react-app
+
+
+
+
+------------------------------------------------------------------------------------------------
+terminal로 gh-pages 만들기 + build
+
+1. terminal(ctrl+J)에서 npm i gh-pages
 
 2-1 package.json 파일에 "homepage": "https://JunIl-git.github.io/{project name}" 작성
 2-2 package.json 파일의 "scripts" obj에 "deploy": "npm run build&&gh-pages -d build" 작성
 
 3 terminal에 npm run deploy 입력
 
-
+----------------------------------------------------------------------------------------------
 커밋하기
 
 1. git add *
