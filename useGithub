@@ -24,14 +24,31 @@ npx는 create-react-app을 딱 한번만 생성(일회성)
 
 
 ------------------------------------------------------------------------------------------------
-terminal로 gh-pages 만들기 + build
+1. git remote -v 로 프로젝트 이름과 user name 가져오기
+{user name}.github.io/{project이름}
 
-1. terminal(ctrl+J)에서 npm i gh-pages
+2. gh- pages 설치되어 있지 않으면 terminal에
+npm i gh-pages 
 
-2-1 package.json 파일에 "homepage": "https://JunIl-git.github.io/{project name}" 작성
-2-2 package.json 파일의 "scripts" obj에 "deploy": "npm run build&&gh-pages -d build" 작성
+3. 프로젝트의 package.JSON 으로가서 아래 문구 추가 (모든 알파벳은 소문자여야 함)
+"homepage" : "https://{user name}.github.io/{project이름}"
 
-3 terminal에 npm run deploy 입력
+4. package.JSON의 "scripts"에 아래 문구 추가 
+"deploy" : "gh-pages"
+
+5. 프로젝트 최소화를 위해 터미널에
+npm run build
+입력하고 enter -> build 폴더 생성  
+
+6. package.JSON의 "scripts"에 아래 두 줄 추가
+"deploy" : "gh-pages -d build",
+"predeploy" : "npm run build" 
+
+7. 터미널에
+npm run build
+입력하고 enter -> https://JunIl-git.github.io/{project이름} 에 해당 프로젝트가 published 된다.
+
+*수정사항이 생겼을 때, npm run build -> npm run deploy 하면 re-published 된다.*
 
 ----------------------------------------------------------------------------------------------
 커밋하기
