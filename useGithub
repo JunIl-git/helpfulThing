@@ -1,4 +1,4 @@
-create-react-app (초기 개발환경)
+@@@@@@@@@@@@ create-react-app (초기 개발환경) @@@@@@@@@@@@@@
 
 1. Node js Download (npm install)
 
@@ -13,17 +13,12 @@ create-react-app (초기 개발환경)
     2. create-react-app react-todo   
 
 3-B npx create-react-app ????
-
                  npm vs npx (npx 권장)
-                 
 npm은 프로그램을 설치하는 프로그램(지속), 무거움
 npx는 create-react-app을 딱 한번만 생성(일회성)
 =컴퓨터의 공간을 낭비하지 않는다, 항상 최신버전의 create-react-app
-
-
-
-
 ------------------------------------------------------------------------------------------------
+@@@@@@@@@@ github 배포하기 @@@@@@@@@@
 1. git remote -v 로 프로젝트 이름과 user name 가져오기
 {user name}.github.io/{project이름}
 
@@ -49,9 +44,8 @@ npm run build
 입력하고 enter -> https://JunIl-git.github.io/{project이름} 에 해당 프로젝트가 published 된다.
 
 *수정사항이 생겼을 때 npm run build -> npm run deploy 하면 re-published 된다.*
-
 -------------------------------------------------------------------------------------------
-repository 생성 후 모든 파일 커밋
+@@@@@@@@@@@ repository 생성 후 모든 파일 커밋 @@@@@@@@@@@
 
 1. git init (로컬 저장소)
 2. git status (현재 폴더에 있는 파일 목록)
@@ -60,3 +54,23 @@ repository 생성 후 모든 파일 커밋
 5. git git remote add origin repository 주소
 6. git remote -v (원격 저장소)
 7. git push origin master (푸쉬)
+---------------------------------------------------------------------------------
+@@@@@@ git branch @@@@@@@
+브랜치의 목록을 볼 때
+git branch
+
+브랜치를 생성할 때 
+git branch "새로운 브랜치 이름"
+
+브랜치를 삭제할 때
+git branch -d
+
+병합하지 않은 브랜치를 강제 삭제할 때 
+git branch -D
+
+브랜치를 전환(체크아웃)할 때
+git checkout "전환하려는 브랜치 이름"
+
+브랜치를 생성하고 전환까지 할 때 
+git checkout -b "생성하고 전환할 브랜치 이름"
+---------------------------------------------------------------------------------
