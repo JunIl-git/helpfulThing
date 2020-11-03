@@ -12,7 +12,7 @@
     1. npm install -g create-react-app
     2. create-react-app react-todo   
 
-3-B npx create-react-app ????
+3-B npx create-react-app name
                  npm vs npx (npx 권장)
 npm은 프로그램을 설치하는 프로그램(지속), 무거움
 npx는 create-react-app을 딱 한번만 생성(일회성)
