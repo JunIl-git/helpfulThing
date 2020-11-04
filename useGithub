@@ -53,7 +53,7 @@ npm run build
 4. git commit -m "text"
 5. git git remote add origin repository 주소
 6. git remote -v (원격 저장소)
-7. git push origin master (푸쉬)
+7. git push origin master(name) (푸쉬)
 ---------------------------------------------------------------------------------
 @@@@@@ git branch @@@@@@@
 브랜치의 목록을 볼 때
