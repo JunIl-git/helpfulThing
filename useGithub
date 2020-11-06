@@ -39,8 +39,7 @@ npm run build
 "deploy" : "gh-pages -d build",
 "predeploy" : "npm run build" 
 
-7. 터미널에
-npm run build
+7. npm run build
 입력하고 enter -> https://JunIl-git.github.io/{project이름} 에 해당 프로젝트가 published 된다.
 
 *수정사항이 생겼을 때 npm run build -> npm run deploy 하면 re-published 된다.*
