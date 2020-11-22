@@ -10,7 +10,7 @@
 
 3-A.프로그램을 만들 경로를 입력하고 
     1. npm install -g create-react-app
-    2. create-react-app react-todo   
+    2. create-react-app react-todo   (추천)
 
 3-B npx create-react-app name
                  npm vs npx (npx 권장)
