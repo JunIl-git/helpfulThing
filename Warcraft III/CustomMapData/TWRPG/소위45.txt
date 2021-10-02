@@ -1,0 +1,24 @@
+function PreloadFiles takes nothing returns nothing
+
+	call Preload( "---------------------------------------" )
+	call Preload( "아이디: unione" )
+	call Preload( "플레이 버전: 0.52d" )
+	call Preload( "호환되는 버전: 0.44c~" )
+	call Preload( "직업: 소울위버" )
+	call Preload( "레벨: 45" )
+	call Preload( "현재 경험치 / 다음 레벨까지의 경험치: 253431 / 261339" )
+	call Preload( "----------영웅 아이템----------" )
+	call Preload( "1. 고대 나무 지팡이" )
+	call Preload( "2. 모험가 옷" )
+	call Preload( "3. 곰가죽 망토" )
+	call Preload( "4. 송곳니 목걸이" )
+	call Preload( "5. 숲의 투구" )
+	call Preload( "----------배낭----------" )
+	call Preload( "----------창고----------" )
+	call Preload( "---------------------------------------" )
+	call Preload( "로드 코드 1: -load lUT4gUS6rv&VXvDRf51Ndv&UC$WxNXeOxuDfL$laN?@8SNYR2uwLgLm" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

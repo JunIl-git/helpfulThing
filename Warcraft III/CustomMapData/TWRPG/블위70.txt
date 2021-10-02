@@ -1,0 +1,33 @@
+function PreloadFiles takes nothing returns nothing
+
+	call Preload( "---------------------------------------" )
+	call Preload( "아이디: unione" )
+	call Preload( "플레이 버전: 0.52d" )
+	call Preload( "호환되는 버전: 0.44c~" )
+	call Preload( "직업: 블러드위버" )
+	call Preload( "레벨: 70" )
+	call Preload( "현재 경험치 / 다음 레벨까지의 경험치: 1093625 / 1154758" )
+	call Preload( "----------영웅 아이템----------" )
+	call Preload( "1. 맹독의 지팡이" )
+	call Preload( "2. 송곳니 목걸이" )
+	call Preload( "3. 화염의 망토" )
+	call Preload( "4. 맹독의 로브" )
+	call Preload( "5. 맹독의 투구" )
+	call Preload( "----------배낭----------" )
+	call Preload( "1. 하이드라 독니" )
+	call Preload( "2. 하이드라 독니" )
+	call Preload( "3. 따뜻한 털가죽" )
+	call Preload( "4. 미스릴" )
+	call Preload( "5. 로브 오브 메이지" )
+	call Preload( "6. 타락한 피조물" )
+	call Preload( "7. 하이드라 독니" )
+	call Preload( "8. 하이드라 스케일" )
+	call Preload( "9. 하이드라 스케일" )
+	call Preload( "----------창고----------" )
+	call Preload( "---------------------------------------" )
+	call Preload( "로드 코드 1: -load s234xgCk%O7ewCUdi41TgjLnSPr34b1u5sml#c4MLS&hLyoLOf56wGAd9Kydf?if8G%bS9F" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

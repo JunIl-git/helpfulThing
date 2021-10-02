@@ -1,0 +1,16 @@
+function PreloadFiles takes nothing returns nothing
+
+	call Preload( "----------Survive_From_Zombies_v1.40----------" )
+	call Preload( "----------------- Save Code ------------------" )
+	call Preload( "qufz4UyR" )
+	call Preload( "----------------- Save Data ------------------" )
+	call Preload( "???? - " )
+	call Preload( "칭호 - " )
+	call Preload( "레벨 - [0]" )
+	call Preload( "경험치 - [0/100(%)]" )
+	call Preload( "----------------- Save Code End ------------------" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
